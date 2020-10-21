@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 481df5ed02e2f6747a395365302895de
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 0001_Dark_Rook_Warrior_1_skel_1
+    100002: Cinema4D_Editor
+    100004: //RootNode
+    100006: Silver_Shuild
+    400000: 0001_Dark_Rook_Warrior_1_skel_1
+    400002: Cinema4D_Editor
+    400004: //RootNode
+    400006: Silver_Shuild
+    2300000: 0001_Dark_Rook_Warrior_1_skel_1
+    3300000: 0001_Dark_Rook_Warrior_1_skel_1
+    4300000: 0001_Dark_Rook_Warrior_1_skel_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Silver_Shuild
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 0001_Dark_Rook_Warrior_1_skel_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Silver Shuild(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cinema4D_Editor
+      position: {x: -2.04277182, y: 1.71836436, z: 2.21952987}
+      rotation: {x: .156061247, y: .910603285, z: -.0646426827, w: -.377184242}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Silver_Shuild
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: 0001_Dark_Rook_Warrior_1_skel_1
+      position: {x: -1.21546829e-17, y: 1.00256085, z: .203099266}
+      rotation: {x: -2.93329663e-08, y: .707106829, z: .707106829, w: 2.93329663e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

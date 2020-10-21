@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: c026a66a2ba284f4ebc5442be778081b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ORC_
+    100004: ORC_ Head
+    100006: ORC_ L Calf
+    100008: ORC_ L Clavicle
+    100010: ORC_ L Finger0
+    100012: ORC_ L Finger01
+    100014: ORC_ L Finger02
+    100016: ORC_ L Finger1
+    100018: ORC_ L Finger11
+    100020: ORC_ L Finger12
+    100022: ORC_ L Finger2
+    100024: ORC_ L Finger21
+    100026: ORC_ L Finger22
+    100028: ORC_ L Finger3
+    100030: ORC_ L Finger31
+    100032: ORC_ L Finger32
+    100034: ORC_ L Foot
+    100036: ORC_ L Forearm
+    100038: ORC_ L Hand
+    100040: ORC_ L Thigh
+    100042: ORC_ L Toe0
+    100044: ORC_ L UpperArm
+    100046: ORC_ Neck
+    100048: ORC_ Pelvis
+    100050: ORC_ Queue de cheval 1
+    100052: ORC_ Queue de cheval 11
+    100054: ORC_ Queue de cheval 12
+    100056: ORC_ Queue de cheval 13
+    100058: ORC_ Queue de cheval 2
+    100060: ORC_ R Calf
+    100062: ORC_ R Clavicle
+    100064: ORC_ R Finger0
+    100066: ORC_ R Finger01
+    100068: ORC_ R Finger02
+    100070: ORC_ R Finger1
+    100072: ORC_ R Finger11
+    100074: ORC_ R Finger12
+    100076: ORC_ R Finger2
+    100078: ORC_ R Finger21
+    100080: ORC_ R Finger22
+    100082: ORC_ R Finger3
+    100084: ORC_ R Finger31
+    100086: ORC_ R Finger32
+    100088: ORC_ R Foot
+    100090: ORC_ R Forearm
+    100092: ORC_ R Hand
+    100094: ORC_ R Thigh
+    100096: ORC_ R Toe0
+    100098: ORC_ R UpperArm
+    100100: ORC_ Spine
+    100102: ORC_ Spine1
+    100104: Structure001
+    100106: Structure002
+    100108: Structure003
+    100110: Structure005
+    100112: Structure006
+    100114: Structure007
+    400000: //RootNode
+    400002: ORC_
+    400004: ORC_ Head
+    400006: ORC_ L Calf
+    400008: ORC_ L Clavicle
+    400010: ORC_ L Finger0
+    400012: ORC_ L Finger01
+    400014: ORC_ L Finger02
+    400016: ORC_ L Finger1
+    400018: ORC_ L Finger11
+    400020: ORC_ L Finger12
+    400022: ORC_ L Finger2
+    400024: ORC_ L Finger21
+    400026: ORC_ L Finger22
+    400028: ORC_ L Finger3
+    400030: ORC_ L Finger31
+    400032: ORC_ L Finger32
+    400034: ORC_ L Foot
+    400036: ORC_ L Forearm
+    400038: ORC_ L Hand
+    400040: ORC_ L Thigh
+    400042: ORC_ L Toe0
+    400044: ORC_ L UpperArm
+    400046: ORC_ Neck
+    400048: ORC_ Pelvis
+    400050: ORC_ Queue de cheval 1
+    400052: ORC_ Queue de cheval 11
+    400054: ORC_ Queue de cheval 12
+    400056: ORC_ Queue de cheval 13
+    400058: ORC_ Queue de cheval 2
+    400060: ORC_ R Calf
+    400062: ORC_ R Clavicle
+    400064: ORC_ R Finger0
+    400066: ORC_ R Finger01
+    400068: ORC_ R Finger02
+    400070: ORC_ R Finger1
+    400072: ORC_ R Finger11
+    400074: ORC_ R Finger12
+    400076: ORC_ R Finger2
+    400078: ORC_ R Finger21
+    400080: ORC_ R Finger22
+    400082: ORC_ R Finger3
+    400084: ORC_ R Finger31
+    400086: ORC_ R Finger32
+    400088: ORC_ R Foot
+    400090: ORC_ R Forearm
+    400092: ORC_ R Hand
+    400094: ORC_ R Thigh
+    400096: ORC_ R Toe0
+    400098: ORC_ R UpperArm
+    400100: ORC_ Spine
+    400102: ORC_ Spine1
+    400104: Structure001
+    400106: Structure002
+    400108: Structure003
+    400110: Structure005
+    400112: Structure006
+    400114: Structure007
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: ORC_ Spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ Neck
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ Queue de cheval 2
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ Queue de cheval 1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger3
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger31
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger32
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger21
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger22
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger0
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger01
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ L Finger02
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger3
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger31
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger32
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger11
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger12
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger0
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger01
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ORC_ R Finger02
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ORC@attack3HitComboA(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_
+      position: {x: -.0479142331, y: 1.03461421, z: -.0123397205}
+      rotation: {x: -.451246113, y: .420968145, z: .546140671, w: .566474438}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.562754571, y: .348541945, z: .62654227, w: .411425084}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: ORC_ Spine
+      position: {x: -.323932827, y: -.0295863003, z: -.0305362195}
+      rotation: {x: .279743373, y: .0333886109, z: .145090282, w: .948460698}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: ORC_ L Thigh
+      position: {x: .109357223, y: .0638944581, z: .105397202}
+      rotation: {x: -.0696046203, y: .971189976, z: .221483737, w: .053761065}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: ORC_ L Calf
+      position: {x: -.625062764, y: 0, z: -3.81469718e-08}
+      rotation: {x: .0175777655, y: -.0256203879, z: .302139223, w: .952757359}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ORC_ L Foot
+      position: {x: -.529448509, y: -3.81469718e-08, z: 0}
+      rotation: {x: .100446939, y: .0663611665, z: -.29763183, w: .947059691}
+      scale: {x: .999999821, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: ORC_ L Toe0
+      position: {x: -.132668555, y: .224155456, z: 7.62939436e-08}
+      rotation: {x: .000232144492, y: .0156261306, z: -.797909081, w: .602575183}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Thigh
+      position: {x: .151100531, y: -.012921676, z: -.108126007}
+      rotation: {x: -.0644973442, y: .951346278, z: -.289356053, w: -.0839856341}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: ORC_ R Calf
+      position: {x: -.625062704, y: 0, z: 3.81469718e-08}
+      rotation: {x: -.00555107556, y: .00694228429, z: .314689755, w: .949153006}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Foot
+      position: {x: -.529448628, y: 1.90734859e-08, z: 0}
+      rotation: {x: -.126982421, y: -.090423584, z: -.236827984, w: .958963811}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: ORC_ R Toe0
+      position: {x: -.13266857, y: .224155441, z: 7.62939436e-08}
+      rotation: {x: .000517651381, y: -.0235000234, z: -.829399824, w: .558160782}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: ORC_ Spine1
+      position: {x: -.2488105, y: -.000243568415, z: 1.53398505e-05}
+      rotation: {x: -.0311307423, y: -.00593144028, z: -.165407553, w: .985716045}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: ORC_ Neck
+      position: {x: -.340617508, y: -.0353107452, z: -5.72204577e-08}
+      rotation: {x: .000369561574, y: .00117544038, z: -.105903022, w: .994375706}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ Head
+      position: {x: -.115914457, y: 0, z: 0}
+      rotation: {x: .0587547906, y: .042785842, z: .519074917, w: .851632833}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: ORC_ Queue de cheval 1
+      position: {x: -.246613607, y: -.170804709, z: -4.57763662e-07}
+      rotation: {x: -4.60102934e-09, y: -1.54288057e-06, z: .555875003, w: .831265926}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: ORC_ Queue de cheval 11
+      position: {x: -.060934525, y: -5.23376439e-05, z: -4.76837148e-09}
+      rotation: {x: 1.23209742e-09, y: -6.08841901e-07, z: .2188043, w: .975768805}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ Queue de cheval 12
+      position: {x: -.0728745237, y: -5.23376439e-05, z: 0}
+      rotation: {x: -2.53054272e-10, y: -8.24623726e-07, z: .300690114, w: .953721941}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: ORC_ Queue de cheval 13
+      position: {x: -.080103226, y: -2.96020498e-05, z: 0}
+      rotation: {x: 6.16956819e-10, y: -1.34457787e-06, z: .483914942, w: .875115097}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ Queue de cheval 2
+      position: {x: -.0507923886, y: .0524792075, z: -4.82797624e-08}
+      rotation: {x: 8.60645888e-10, y: 2.0578384e-06, z: -.742048025, w: .670346737}
+      scale: {x: .999999821, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: ORC_ L Clavicle
+      position: {x: .00595184322, y: .0202323906, z: .0759161189}
+      rotation: {x: -.626860321, y: -.235614151, z: .717529535, w: -.191529274}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: ORC_ L UpperArm
+      position: {x: -.249598324, y: -7.62939436e-08, z: 0}
+      rotation: {x: -.390842915, y: -.0248327255, z: .125076607, w: .911581635}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ L Forearm
+      position: {x: -.43627584, y: 3.81469718e-08, z: -1.52587887e-07}
+      rotation: {x: -.0292031392, y: .0265751183, z: -.000752735941, w: .999219954}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: ORC_ L Hand
+      position: {x: -.355322629, y: 0, z: 0}
+      rotation: {x: -.703592598, y: -.0443553813, z: -.0626796857, w: .706442654}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger0
+      position: {x: -.0598500818, y: -.0279930104, z: -.0203965753}
+      rotation: {x: .437227398, y: -.165149614, z: .0871306658, w: .879753411}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: ORC_ L Finger01
+      position: {x: -.0656462461, y: 0, z: 1.52587887e-07}
+      rotation: {x: 1.95571985e-07, y: -6.72030609e-09, z: -.0279798359, w: .999608517}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: ORC_ L Finger02
+      position: {x: -.0571183003, y: 0, z: 0}
+      rotation: {x: -3.13621995e-09, y: -2.96368459e-08, z: -.105234072, w: .99444747}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger1
+      position: {x: -.152047187, y: -.01078186, z: -.0417051688}
+      rotation: {x: .000971612229, y: -.0889827162, z: -.0342410803, w: .99544394}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: ORC_ L Finger11
+      position: {x: -.0450624451, y: 0, z: -7.62939436e-08}
+      rotation: {x: 1.29911385e-07, y: -3.64727839e-06, z: -.0364259593, w: .999336362}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger12
+      position: {x: -.0480393767, y: 1.52587887e-07, z: 1.52587887e-07}
+      rotation: {x: 5.2713256e-09, y: 2.93324298e-08, z: -.176876336, w: .984233081}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger2
+      position: {x: -.152000189, y: .000199127186, z: .0196180716}
+      rotation: {x: -.0108810933, y: -.0880919695, z: -.0289408304, w: .99563235}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger21
+      position: {x: -.0564794131, y: -1.52587887e-07, z: -7.62939436e-08}
+      rotation: {x: -2.49480252e-07, y: 9.83968675e-07, z: -.0308923386, w: .999522746}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ L Finger22
+      position: {x: -.0450367741, y: 0, z: 0}
+      rotation: {x: -1.66785849e-10, y: -3.07190824e-08, z: -.247799262, w: .968811393}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger3
+      position: {x: -.150963202, y: .00935928337, z: .072562024}
+      rotation: {x: -.0308935177, y: -.0847821757, z: -.0220909975, w: .995675445}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ L Finger31
+      position: {x: -.0416245274, y: 0, z: 7.62939436e-08}
+      rotation: {x: -1.83825009e-07, y: 1.53901863e-06, z: -.0283784103, w: .999597251}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: ORC_ L Finger32
+      position: {x: -.0475064851, y: 1.52587887e-07, z: -1.14440915e-07}
+      rotation: {x: 6.23049878e-09, y: -1.91875338e-09, z: -.294320822, w: .955706716}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Clavicle
+      position: {x: .00595184322, y: .0202330016, z: -.075916104}
+      rotation: {x: .59539324, y: .155139461, z: .744329333, w: -.259639412}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: ORC_ R UpperArm
+      position: {x: -.249598294, y: 0, z: 0}
+      rotation: {x: .659573317, y: -.139821857, z: .0171965268, w: .738320589}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Forearm
+      position: {x: -.43627584, y: 0, z: 0}
+      rotation: {x: .0114349928, y: -.0149382818, z: .0242299289, w: .999529362}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Hand
+      position: {x: -.355322719, y: -1.52587887e-07, z: 0}
+      rotation: {x: .714188814, y: -.0280503444, z: .0438486785, w: .698014975}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Finger0
+      position: {x: -.0598500036, y: -.0279928967, z: .0203965753}
+      rotation: {x: -.758013904, y: .00377894426, z: -.0451266356, w: .650664449}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger01
+      position: {x: -.0656461716, y: 0, z: 1.52587887e-07}
+      rotation: {x: 6.49039293e-07, y: 1.25024064e-06, z: -.0219571423, w: .999758899}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Finger02
+      position: {x: -.0571182631, y: 7.62939436e-08, z: 0}
+      rotation: {x: -4.69285197e-08, y: 4.26139968e-09, z: -.400725335, w: .916198254}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger1
+      position: {x: -.152047262, y: -.0107818218, z: .0417051688}
+      rotation: {x: -.0498516969, y: -.0421491116, z: -.0676358119, w: .99557209}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger11
+      position: {x: -.0450625606, y: -1.52587887e-07, z: -7.62939436e-08}
+      rotation: {x: -6.48860237e-07, y: 2.98115037e-06, z: -.0204964969, w: .999789953}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger12
+      position: {x: -.0480395481, y: 1.52587887e-07, z: -1.52587887e-07}
+      rotation: {x: -1.36582887e-08, y: -9.53975565e-09, z: -.477192879, w: .878798604}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger2
+      position: {x: -.152000278, y: .000199279777, z: -.0196182244}
+      rotation: {x: -.024267802, y: -.0517870784, z: -.0691768453, w: .995963693}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger21
+      position: {x: -.0564794131, y: 0, z: 7.62939436e-08}
+      rotation: {x: 3.29028182e-07, y: 1.6080304e-06, z: -.0187610071, w: .999824047}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: ORC_ R Finger22
+      position: {x: -.0450367741, y: 0, z: 0}
+      rotation: {x: 1.19687851e-08, y: -4.04116953e-08, z: -.477192819, w: .878798604}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger3
+      position: {x: -.150963128, y: .00935939793, z: -.0725620985}
+      rotation: {x: .00806565862, y: -.0653480962, z: -.0684571862, w: .995478868}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: ORC_ R Finger31
+      position: {x: -.0416245647, y: 0, z: 0}
+      rotation: {x: -3.82102598e-08, y: 3.26605686e-06, z: -.0187606197, w: .999823987}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: ORC_ R Finger32
+      position: {x: -.0475064069, y: 0, z: -7.62939436e-08}
+      rotation: {x: 1.30951214e-08, y: -7.11072845e-09, z: -.477192849, w: .878798604}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: Structure001
+      position: {x: .0383718088, y: .228739277, z: -6.81877111e-07}
+      rotation: {x: -.0910799876, y: .995843589, z: -1.60330569e-06, w: -5.28582859e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Structure002
+      position: {x: -.120943293, y: 1.90734859e-08, z: 9.53674295e-09}
+      rotation: {x: 3.33943628e-09, y: -3.31442784e-08, z: -.107054986, w: .994253099}
+      scale: {x: .999999821, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Structure003
+      position: {x: -.11566513, y: 1.90734859e-08, z: -4.76837148e-09}
+      rotation: {x: 2.1627816e-08, y: -1.40282863e-09, z: -.107547358, w: .994199991}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Structure005
+      position: {x: -.0457427986, y: -.241776541, z: 9.10758956e-07}
+      rotation: {x: -.101897299, y: .994794965, z: -1.85335853e-06, w: -4.87965281e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Structure006
+      position: {x: -.14061904, y: -2.47955313e-06, z: -9.53674295e-09}
+      rotation: {x: -2.36282403e-07, y: 2.3964466e-08, z: -.0930993557, w: .995656848}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Structure007
+      position: {x: -.148542628, y: 2.31742843e-06, z: 4.76837148e-09}
+      rotation: {x: -1.81764861e-08, y: 7.17812698e-09, z: -.110678837, w: .993856251}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
