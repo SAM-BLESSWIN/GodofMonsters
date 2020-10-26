@@ -16,10 +16,12 @@ public class PlayerMovements : MonoBehaviour
     private float grnd_distance;
     private float fallvelocity=0f;
     private float turnsmoothvelocity;
+    private float targetangle;
 
+    public Transform Cam;
     public float gravity = 1f;
     public float move_speed;
-    public float turnsmoothspeed;
+    public float turnsmoothtime;
     public float Jump_power;
     public float animmove_speed;
     public float animjump_speed;
@@ -71,11 +73,16 @@ public class PlayerMovements : MonoBehaviour
         direction = new Vector3(horizontal, 0f, vertical);
         direction.y = fallvelocity;
 
+        
+
         if (horizontal != 0 || vertical != 0)
         {
-            float targetangle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-            float angle = Mathf.SmoothDampAngle(transform.rotation.y, targetangle, ref turnsmoothvelocity, turnsmoothspeed);
-            transform.rotation = Quaternion.Euler(0f, targetangle, 0f);
+            targetangle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + Cam.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetangle, ref turnsmoothvelocity, turnsmoothtime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+            Vector3 MoveDirection = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
+            charcontrol.Move(MoveDirection * move_speed * Time.deltaTime);
         }    
        
         if(Input.GetKeyDown(KeyCode.Space))
@@ -83,7 +90,7 @@ public class PlayerMovements : MonoBehaviour
             Jump();
         }
 
-        charcontrol.Move(direction * move_speed * Time.deltaTime);
+        
     }
 
     private void Jump()
