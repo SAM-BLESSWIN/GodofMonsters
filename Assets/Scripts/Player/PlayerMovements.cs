@@ -17,6 +17,7 @@ public class PlayerMovements : MonoBehaviour
     private float fallvelocity=0f;
     private float turnsmoothvelocity;
     private float targetangle;
+    private Vector3 MoveDirection;
 
     public Transform Cam;
     public float gravity = 1f;
@@ -71,9 +72,13 @@ public class PlayerMovements : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
 
         direction = new Vector3(horizontal, 0f, vertical);
-        direction.y = fallvelocity;
+        //direction.y = fallvelocity;
+       
 
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
 
         if (horizontal != 0 || vertical != 0)
         {
@@ -81,16 +86,15 @@ public class PlayerMovements : MonoBehaviour
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetangle, ref turnsmoothvelocity, turnsmoothtime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            Vector3 MoveDirection = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
-            charcontrol.Move(MoveDirection * move_speed * Time.deltaTime);
-        }    
-       
-        if(Input.GetKeyDown(KeyCode.Space))
+            MoveDirection = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
+        }
+        else
         {
-            Jump();
+            MoveDirection = Vector3.zero;
         }
 
-        
+        MoveDirection.y = fallvelocity;
+        charcontrol.Move(MoveDirection * move_speed * Time.deltaTime);
     }
 
     private void Jump()

@@ -1433,7 +1433,7 @@ MonoBehaviour:
   move_speed: 5
   turnsmoothtime: 0.1
   Jump_power: 4
-  animmove_speed: 2
+  animmove_speed: 1.5
   animjump_speed: 1.25
 --- !u!4 &3329622267954738272 stripped
 Transform:
